@@ -1,0 +1,20 @@
+package javaPack;
+import java.util.Scanner;
+public class inputoutput {
+    public static void main(String[] args) {
+        Scanner allinput= new Scanner(System.in); 
+
+        System.out.print("grade #1: "); 
+        double num1= allinput.nextDouble();
+        System.out.print("grade #2: "); 
+        double num2= allinput.nextDouble();
+        System.out.print("grade #3: "); 
+        double num3= allinput.nextDouble();
+        System.out.print("grade #4: "); 
+        double num4= allinput.nextDouble();
+        System.out.print("grade #5: "); 
+        double num5= allinput.nextDouble();
+        double sum = num1+num2+num3+num4+num5;
+        System.out.println("Average: "+(sum/5)); 
+    }
+}
