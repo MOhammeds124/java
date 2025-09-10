@@ -1,0 +1,15 @@
+package javaPack;
+import java.util.Scanner;
+public class inputoutput {
+    public static void main(String[] args) {
+        Scanner allinput= new Scanner(System.in); 
+
+        System.out.print("enter first numerical value: "); 
+        double num1= allinput.nextDouble();
+        System.out.print("enter second numerical value: "); 
+        double num2= allinput.nextDouble();
+
+        System.out.println("sum: "+(num1+num2)); 
+        System.out.println("product: "+(num1*num2));
+    }
+}
